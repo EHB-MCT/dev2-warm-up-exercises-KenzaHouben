@@ -10,7 +10,7 @@ warmup1();
 function warmup1() {
     console.log("Exercise week 1");
 
-    // Oefening: plaats je naam
+    // Oefening 1a: plaats je naam
 
     const p = "Hallo, dit is de oefening van Kenza";
 
@@ -18,13 +18,23 @@ function warmup1() {
         document.getElementById("content-1").innerHTML += p;
     });
 
-    // Oefening: verander de achtergrond
-
-
+    // Oefening 1b: verander de achtergrond
 
     document.getElementById("button-1b").addEventListener('click', function () {
         document.getElementById("section-1").style.background = "lightblue";
-    })
+    });
+
+    // Oefening 1c: ben je er klaar voor?
+
+    const h = "Ik ben er klaar voor";
+    const container = document.getElementById("content-1");
+
+    document.getElementById("button-1c").addEventListener('click', function () {
+
+        container.innerHTML += h;
+        container.insertAdjacentElement('beforeend', h);
+
+    });
 
 }
 
