@@ -20,8 +20,10 @@ function warmup1() {
 
     // Oefening: verander de achtergrond
 
-    document.getElementById("button-1b").addEventListener('click', function () {
 
+
+    document.getElementById("button-1b").addEventListener('click', function () {
+        document.getElementById("section-1").style.background = "lightblue";
     })
 
 }
