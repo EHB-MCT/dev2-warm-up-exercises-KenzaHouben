@@ -151,5 +151,8 @@ function warmup5() {
         <h2>Name: ${studentEhB.name}</h2>
         <h2>Score: ${studentEhB.score}</h2>
         `
+        // Of als je zonder getter werkt
+        // <h2>Name: ${studentEhB._name}</h2>
+        // <h2>Score: ${studentEhB._score}</h2>
     })
 }
