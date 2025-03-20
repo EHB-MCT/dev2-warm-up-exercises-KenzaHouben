@@ -1,125 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap")
 .light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-style: normal;
 }
 
 .bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 .regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .mono {
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Roboto Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 }
-
 
 .poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
-
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+body,
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 main {
-    width: 100%;
-    text-align: center;
+	width: 100%;
+	text-align: center;
 }
 
 h2 {
-    margin: 12px;
+	margin: 12px;
 }
 section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0; /* Example background color */
-    padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f0f0f0; /* Example background color */
+	padding: 20px 0;
 }
 #section-1 {
-    background-color: #fde0dc; /* Pastel red */
+	background-color: #fde0dc; /* Pastel red */
 }
 
 #section-2 {
-    background-color: #fce4a3; /* Pastel orange */
+	background-color: #fce4a3; /* Pastel orange */
 }
 
 #section-3 {
-    background-color: #fff0b3; /* Pastel yellow */
+	background-color: #fff0b3; /* Pastel yellow */
 }
 
 #section-4 {
-    background-color: #c8e6c9; /* Pastel green */
+	background-color: #c8e6c9; /* Pastel green */
 }
 
 #section-5 {
-    background-color: #b3e5fc; /* Pastel blue */
+	background-color: #b3e5fc; /* Pastel blue */
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 800px;
-    width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 800px;
+	width: 100%;
 }
 
-.buttons, .content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.buttons,
+.content {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 button {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    background-color: white; 
-    border: 1px solid white; 
-    color: black; 
-    text-transform: uppercase; 
-    padding: 24px;
-    margin: 12px; 
-    cursor: pointer; 
-      box-shadow: -6px 6px  rgba(0, 0, 0, 0.2); /* Box shadow effect on hover */
-    transition: box-shadow 0.1s; 
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	background-color: white;
+	border: 1px solid white;
+	color: black;
+	text-transform: uppercase;
+	padding: 24px;
+	margin: 12px;
+	cursor: pointer;
+	box-shadow: -6px 6px rgba(0, 0, 0, 0.2); /* Box shadow effect on hover */
+	transition: box-shadow 0.1s;
 }
 
 button:hover {
-  box-shadow: -12px 12px  rgba(0, 0, 0, 0.1); /* Box shadow effect on hover */
+	box-shadow: -12px 12px rgba(0, 0, 0, 0.1); /* Box shadow effect on hover */
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 .graduated {
-    border: 5px solid green;
+	border: 5px solid green;
 }
 
 .not-graduated {
-    border: 5px solid red;
+	border: 5px solid red;
 }
