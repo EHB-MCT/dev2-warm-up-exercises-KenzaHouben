@@ -1,3 +1,4 @@
+// Classes gaan we altijd met hoofdletter schrijven
 export default class Student {
     constructor(name, age, score, allowed = true) {
         this._name = name;

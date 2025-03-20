@@ -6,8 +6,6 @@ import {
 
 import Student from "./Student.js";
 
-const studentEhB = new Student("Kenza", "21", "8");
-
 runTitle();
 warmup1();
 warmup2();
@@ -141,6 +139,7 @@ function warmup4() {
 }
 
 function warmup5() {
+    const studentEhB = new Student("Kenza", "21", "8");
     document.querySelector('#button-5a').addEventListener('click', function () {
         console.log(studentEhB);
     })
